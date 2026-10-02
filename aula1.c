@@ -1,6 +1,11 @@
 #include <stdio.h>
 
 int main () {
- printf("teste1")
+
+ int var =0;
+prinf("%d",var);
+scanf("%d",&var);
+
+ 
 
 {
