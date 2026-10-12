@@ -6,16 +6,31 @@ int main() {
     
 int esc , palp ;
     
-    printf("o intuito do jogo é advinhar um numero de um a mil que seu amigo esta a pensar \n");
+    printf("o intuito do jogo é advinhar um numero de um a mil que seu amigo esta a pensar \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    getchar(); 
    
     
  printf("\n diga um numero de 0-1000 : \n");   
     scanf("%d",&esc);
-    
-    if(palp==esc){
+    getchar();
+    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+
+printf("qual é o seu palpite?");
+    scanf("%d",&palp);
+while(palp != esc){
+    if(palp==esc)
+    {
         printf("você ganhou!");
-    }
-    
+}
+        if(palp < esc ){
+            printf("maior\n");
+            scanf("%d",&palp);
+        }
+    else if(palp > esc){
+    printf("menor\n");
+        scanf("%d",&palp);
+}
+}   
     
     
     
