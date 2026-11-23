@@ -30,8 +30,9 @@ int main() {
 
    i++;     
     }
+    i=0;
        while(i!=10){
-       printf("%d",V[i]\n);
+       printf("%d\n",V[i]);
            i++;
        }
 
